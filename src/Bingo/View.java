@@ -76,7 +76,7 @@ public class View extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
 
         btnStart.setFont(new java.awt.Font("MS Mincho", 0, 30)); // NOI18N
-        btnStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/start.png"))); // NOI18N
+        btnStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/start.png"))); // NOI18N
         btnStart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnStartActionPerformed(evt);
@@ -93,7 +93,7 @@ public class View extends javax.swing.JFrame {
 
         btnB.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnB.setForeground(new java.awt.Color(0, 255, 102));
-        btnB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/B.png"))); // NOI18N
+        btnB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/B.png"))); // NOI18N
         btnB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBActionPerformed(evt);
@@ -102,7 +102,7 @@ public class View extends javax.swing.JFrame {
 
         btnI.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnI.setForeground(new java.awt.Color(9, 243, 228));
-        btnI.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/I.png"))); // NOI18N
+        btnI.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/I.png"))); // NOI18N
         btnI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnIActionPerformed(evt);
@@ -112,7 +112,7 @@ public class View extends javax.swing.JFrame {
         btnN.setBackground(new java.awt.Color(0, 0, 0));
         btnN.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnN.setForeground(new java.awt.Color(249, 227, 101));
-        btnN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/N.png"))); // NOI18N
+        btnN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/N.png"))); // NOI18N
         btnN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNActionPerformed(evt);
@@ -121,7 +121,7 @@ public class View extends javax.swing.JFrame {
 
         btnG.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnG.setForeground(new java.awt.Color(255, 51, 0));
-        btnG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/G.png"))); // NOI18N
+        btnG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/G.png"))); // NOI18N
         btnG.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGActionPerformed(evt);
@@ -130,7 +130,7 @@ public class View extends javax.swing.JFrame {
 
         btnO.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnO.setForeground(new java.awt.Color(0, 204, 255));
-        btnO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/O.png"))); // NOI18N
+        btnO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/O.png"))); // NOI18N
         btnO.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOActionPerformed(evt);
@@ -196,7 +196,7 @@ public class View extends javax.swing.JFrame {
 
         btnO1.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnO1.setForeground(new java.awt.Color(0, 204, 255));
-        btnO1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/bounenn.png"))); // NOI18N
+        btnO1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/bounenn.png"))); // NOI18N
         btnO1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnO1ActionPerformed(evt);
@@ -231,10 +231,10 @@ public class View extends javax.swing.JFrame {
                                         .add(49, 49, 49)
                                         .add(btnI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 36, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                         .add(53, 53, 53)
-                                        .add(btnN, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 61, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                        .add(51, 51, 51)
-                                        .add(btnG, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 50, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                        .add(47, 47, 47)))
+                                        .add(btnN)
+                                        .add(46, 46, 46)
+                                        .add(btnG)
+                                        .add(31, 31, 31)))
                                 .add(btnO, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                 .add(53, 53, 53)
                                 .add(btnO1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 231, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
@@ -261,33 +261,34 @@ public class View extends javax.swing.JFrame {
                             .add(layout.createSequentialGroup()
                                 .add(16, 16, 16)
                                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                                    .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                                        .add(org.jdesktop.layout.GroupLayout.TRAILING, btnG, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                        .add(org.jdesktop.layout.GroupLayout.TRAILING, btnO, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                                    .add(btnO, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                     .add(org.jdesktop.layout.GroupLayout.TRAILING, btnO1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                             .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
                                 .add(17, 17, 17)
                                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                                    .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                                        .add(btnB, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                        .add(btnI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                                    .add(org.jdesktop.layout.GroupLayout.TRAILING, btnN, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))))
+                                    .add(btnB, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                                    .add(btnI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 56, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))))
+                        .add(77, 77, 77)
+                        .add(jLabel3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 316, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                    .add(layout.createSequentialGroup()
                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                             .add(layout.createSequentialGroup()
-                                .add(77, 77, 77)
-                                .add(jLabel3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 316, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                                .add(17, 17, 17)
+                                .add(btnN))
+                            .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
+                                .add(16, 16, 16)
+                                .add(btnG, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 59, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                        .add(4, 4, 4)
+                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
                             .add(layout.createSequentialGroup()
-                                .add(6, 6, 6)
-                                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
-                                    .add(layout.createSequentialGroup()
-                                        .add(imageLAB, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 250, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                                            .add(nowNumbox, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 85, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel2)))
-                                    .add(jScrollPane2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 341, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                                .add(btnStart, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 80, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))))
+                                .add(imageLAB, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 250, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                                    .add(nowNumbox, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 85, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                                    .add(jLabel2)))
+                            .add(jScrollPane2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 341, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(btnStart, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 80, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
 

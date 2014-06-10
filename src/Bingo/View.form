@@ -90,10 +90,10 @@
                                       <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                                       <Component id="btnI" min="-2" pref="36" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                      <Component id="btnN" min="-2" pref="61" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btnG" min="-2" pref="50" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Component id="btnN" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                      <Component id="btnG" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Component id="btnO" min="-2" pref="56" max="-2" attributes="0"/>
@@ -130,46 +130,46 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="btnG" alignment="1" min="-2" pref="57" max="-2" attributes="0"/>
-                                      <Component id="btnO" alignment="1" min="-2" pref="57" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="btnO" min="-2" pref="57" max="-2" attributes="0"/>
                                   <Component id="btnO1" alignment="1" min="-2" pref="57" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                      <Component id="btnB" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
-                                      <Component id="btnI" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="btnN" alignment="1" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="btnB" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="btnI" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
+                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="316" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="316" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Component id="btnN" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="imageLAB" min="-2" pref="250" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="nowNumbox" alignment="3" min="-2" pref="85" max="-2" attributes="0"/>
-                                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Component id="jScrollPane2" min="-2" pref="341" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="btnStart" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="btnG" min="-2" pref="59" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="imageLAB" min="-2" pref="250" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nowNumbox" alignment="3" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane2" min="-2" pref="341" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnStart" min="-2" pref="80" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -184,7 +184,7 @@
           <Font name="MS Mincho" size="30" style="0"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/start.png"/>
+          <Image iconType="3" name="/image/start.png"/>
         </Property>
       </Properties>
       <Events>
@@ -215,7 +215,7 @@
           <Color blue="66" green="ff" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/B.png"/>
+          <Image iconType="3" name="/image/B.png"/>
         </Property>
       </Properties>
       <Events>
@@ -231,7 +231,7 @@
           <Color blue="e4" green="f3" red="9" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/I.png"/>
+          <Image iconType="3" name="/image/I.png"/>
         </Property>
       </Properties>
       <Events>
@@ -250,7 +250,7 @@
           <Color blue="65" green="e3" red="f9" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/N.png"/>
+          <Image iconType="3" name="/image/N.png"/>
         </Property>
       </Properties>
       <Events>
@@ -266,7 +266,7 @@
           <Color blue="0" green="33" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/G.png"/>
+          <Image iconType="3" name="/image/G.png"/>
         </Property>
       </Properties>
       <Events>
@@ -282,7 +282,7 @@
           <Color blue="ff" green="cc" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/O.png"/>
+          <Image iconType="3" name="/image/O.png"/>
         </Property>
       </Properties>
       <Events>
@@ -369,7 +369,7 @@
           <Color blue="ff" green="cc" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Bingo/bounenn.png"/>
+          <Image iconType="3" name="/image/bounenn.png"/>
         </Property>
       </Properties>
       <Events>
