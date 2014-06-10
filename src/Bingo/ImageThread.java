@@ -1,5 +1,5 @@
 
-package java2dtest;
+package Bingo;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -9,14 +9,15 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 
 class ImageThread extends Thread{
-    labSmap2 vison;
+    View vison;
     ImageIcon ima;
     ArrayList images;
     String bingocode;
     BingoBall bingoball;
     Bingo bingo;
+    static final int IMAGESIZE = 51;
     
-    ImageThread(labSmap2 vison) {
+    ImageThread(View vison) {
         this.vison = vison;
         images =  new ArrayList();
         
@@ -36,7 +37,7 @@ class ImageThread extends Thread{
         int r = 0;
         for(int index = 0; index < 60; index++){
             Random ran = new Random();
-            r = ran.nextInt(51);
+            r = ran.nextInt(IMAGESIZE);
             
             vison.paintlab((ImageIcon)images.get(r));
             

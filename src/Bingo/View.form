@@ -184,7 +184,7 @@
           <Font name="MS Mincho" size="30" style="0"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/start.png"/>
+          <Image iconType="3" name="/Bingo/start.png"/>
         </Property>
       </Properties>
       <Events>
@@ -215,7 +215,7 @@
           <Color blue="66" green="ff" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/B.png"/>
+          <Image iconType="3" name="/Bingo/B.png"/>
         </Property>
       </Properties>
       <Events>
@@ -231,7 +231,7 @@
           <Color blue="e4" green="f3" red="9" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/I.png"/>
+          <Image iconType="3" name="/Bingo/I.png"/>
         </Property>
       </Properties>
       <Events>
@@ -250,7 +250,7 @@
           <Color blue="65" green="e3" red="f9" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/N.png"/>
+          <Image iconType="3" name="/Bingo/N.png"/>
         </Property>
       </Properties>
       <Events>
@@ -266,7 +266,7 @@
           <Color blue="0" green="33" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/G.png"/>
+          <Image iconType="3" name="/Bingo/G.png"/>
         </Property>
       </Properties>
       <Events>
@@ -282,7 +282,7 @@
           <Color blue="ff" green="cc" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/O.png"/>
+          <Image iconType="3" name="/Bingo/O.png"/>
         </Property>
       </Properties>
       <Events>
@@ -369,7 +369,7 @@
           <Color blue="ff" green="cc" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/java2dtest/bounenn.png"/>
+          <Image iconType="3" name="/Bingo/bounenn.png"/>
         </Property>
       </Properties>
       <Events>

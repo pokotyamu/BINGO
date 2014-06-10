@@ -1,4 +1,4 @@
-package java2dtest;
+package Bingo;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -10,13 +10,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 
-public class labSmap2 extends javax.swing.JFrame {
+public class View extends javax.swing.JFrame {
 
     Bingo bin;
     
 
 
-    public labSmap2() {
+    public View() {
         initComponents();
         jFrame2.setBackground(Color.WHITE);
         bin = new Bingo(this);
@@ -76,7 +76,7 @@ public class labSmap2 extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
 
         btnStart.setFont(new java.awt.Font("MS Mincho", 0, 30)); // NOI18N
-        btnStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/start.png"))); // NOI18N
+        btnStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/start.png"))); // NOI18N
         btnStart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnStartActionPerformed(evt);
@@ -93,7 +93,7 @@ public class labSmap2 extends javax.swing.JFrame {
 
         btnB.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnB.setForeground(new java.awt.Color(0, 255, 102));
-        btnB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/B.png"))); // NOI18N
+        btnB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/B.png"))); // NOI18N
         btnB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBActionPerformed(evt);
@@ -102,7 +102,7 @@ public class labSmap2 extends javax.swing.JFrame {
 
         btnI.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnI.setForeground(new java.awt.Color(9, 243, 228));
-        btnI.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/I.png"))); // NOI18N
+        btnI.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/I.png"))); // NOI18N
         btnI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnIActionPerformed(evt);
@@ -112,7 +112,7 @@ public class labSmap2 extends javax.swing.JFrame {
         btnN.setBackground(new java.awt.Color(0, 0, 0));
         btnN.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnN.setForeground(new java.awt.Color(249, 227, 101));
-        btnN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/N.png"))); // NOI18N
+        btnN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/N.png"))); // NOI18N
         btnN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNActionPerformed(evt);
@@ -121,7 +121,7 @@ public class labSmap2 extends javax.swing.JFrame {
 
         btnG.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnG.setForeground(new java.awt.Color(255, 51, 0));
-        btnG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/G.png"))); // NOI18N
+        btnG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/G.png"))); // NOI18N
         btnG.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGActionPerformed(evt);
@@ -130,7 +130,7 @@ public class labSmap2 extends javax.swing.JFrame {
 
         btnO.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnO.setForeground(new java.awt.Color(0, 204, 255));
-        btnO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/O.png"))); // NOI18N
+        btnO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/O.png"))); // NOI18N
         btnO.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOActionPerformed(evt);
@@ -196,7 +196,7 @@ public class labSmap2 extends javax.swing.JFrame {
 
         btnO1.setFont(new java.awt.Font("MS Mincho", 0, 50)); // NOI18N
         btnO1.setForeground(new java.awt.Color(0, 204, 255));
-        btnO1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/java2dtest/bounenn.png"))); // NOI18N
+        btnO1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bingo/bounenn.png"))); // NOI18N
         btnO1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnO1ActionPerformed(evt);
@@ -361,20 +361,20 @@ public class labSmap2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(labSmap2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(labSmap2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(labSmap2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(labSmap2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new labSmap2().setVisible(true);
+                new View().setVisible(true);
                 
             }
         });
@@ -411,8 +411,6 @@ public class labSmap2 extends javax.swing.JFrame {
 
     void paintTxt(Image image, String num) {
         Image img = createImage(image.getWidth(this), image.getHeight(this));//空の画像領域を作る
-        System.out.println(image.toString());
-        System.out.println("width = "+image.getWidth(this) + " height = "+ image.getHeight(this));
         Graphics g = img.getGraphics();
 
         g.setFont(new Font("Apple Braille", Font.BOLD, 70));
@@ -428,15 +426,11 @@ public class labSmap2 extends javax.swing.JFrame {
         imageLAB.setIcon(icon);
         
         Font[] f = GraphicsEnvironment.getLocalGraphicsEnvironment().getAllFonts();
-        for(int h = 0; h < f.length; h++){
-            System.out.println(f[h].toString());
-        }
-        
         try {
             Thread.sleep(1000);
             this.btnchange(true);
         } catch (InterruptedException ex) {
-            Logger.getLogger(labSmap2.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(View.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -471,9 +465,8 @@ public class labSmap2 extends javax.swing.JFrame {
 
     public void btnchange(boolean change) {
         File f = new File("");
-        String url = f.getAbsolutePath()+"/src/image/";//"/Users/pokotyamuMBP/NetBeansProjects/Java2dTest/src/java2dtest/src/image/";
+        String url = f.getAbsolutePath()+"/src/image/";
         ImageIcon ig = new ImageIcon(url + "B.png");
-        System.out.println(ig.toString());
         btnB.setDisabledIcon(ig);
         btnB.setEnabled(change);
         ig = new ImageIcon(url + "I.png");

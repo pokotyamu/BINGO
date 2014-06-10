@@ -1,10 +1,11 @@
 
-package java2dtest;
+package Bingo;
 
 public class BingoBall {
     private int num;
     private String name;
     
+    private boolean hit;
     
     public BingoBall(int num){
         this.num = num;
@@ -18,6 +19,8 @@ public class BingoBall {
             this.name = "I";
         }else
             this.name = "B";
+        
+        hit = false;
     }
 
     int getNum(){
@@ -41,5 +44,13 @@ public class BingoBall {
         }else
             this.name = "B";
         return this;
+    }
+    
+    public void setHit(boolean hit){
+        this.hit = hit;
+    }
+    
+    public boolean isHit(){
+        return this.hit;
     }
 }
