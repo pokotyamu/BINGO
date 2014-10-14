@@ -16,7 +16,6 @@ class Bingo {
     
     public Bingo(){
         this.newgame();
-        
     }
 
     Bingo(View vison) {
